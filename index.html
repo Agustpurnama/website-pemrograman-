@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Pemrograman</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+    }
+    pre {
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 1.1em;
+      overflow-x: auto;
+    }
+    .example-code {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Belajar Pemrograman</h1>
+    <p>Website ini dibuat untuk membantu Anda belajar pemrograman dengan cara yang mudah dan menyenangkan!</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#python">Python</a>
+    <a href="#html-css">HTML & CSS</a>
+    <a href="#javascript">JavaScript</a>
+  </nav>
+
+  <!-- Python Section -->
+  <section id="python">
+    <h2>Belajar Python</h2>
+    <p>Python adalah bahasa pemrograman yang mudah dipelajari dan banyak digunakan untuk aplikasi web, data science, automasi, dan banyak lagi.</p>
+    
+    <div class="example-code">
+      <h3>Contoh Kode Python:</h3>
+      <pre>
+# Python code
+print("Hello, World!")
+      </pre>
+      <p>Di atas adalah contoh kode Python sederhana yang mencetak pesan "Hello, World!" ke layar.</p>
+    </div>
+
+    <div class="example-code">
+      <h3>Contoh Fungsi Python:</h3>
+      <pre>
+# Fungsi untuk menghitung luas lingkaran
+import math
+def luas_lingkaran(radius):
+    return math.pi * radius * radius
+
+print(luas_lingkaran(5))
+      </pre>
+      <p>Ini adalah contoh fungsi Python yang menghitung luas lingkaran berdasarkan radius yang diberikan.</p>
+    </div>
+  </section>
+
+  <!-- HTML & CSS Section -->
+  <section id="html-css">
+    <h2>Belajar HTML & CSS</h2>
+    <p>HTML adalah bahasa markah yang digunakan untuk membuat struktur halaman web. CSS digunakan untuk mempercantik tampilan halaman tersebut.</p>
+
+    <div class="example-code">
+      <h3>Contoh Kode HTML:</h3>
+      <pre>
+<!-- HTML code -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Saya</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Selamat Datang di Website Saya</h1>
+  <p>Ini adalah contoh website sederhana menggunakan HTML dan CSS.</p>
+</body>
+</html>
+      </pre>
+      <p>Ini adalah contoh kode HTML untuk membuat halaman sederhana dengan sebuah judul dan paragraf.</p>
+    </div>
+
+    <div class="example-code">
+      <h3>Contoh Kode CSS:</h3>
+      <pre>
+/* CSS code */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  color: #666;
+  text-align: center;
+}
+      </pre>
+      <p>Ini adalah contoh kode CSS yang memperindah tampilan halaman web yang dibuat di atas.</p>
+    </div>
+  </section>
+
+  <!-- JavaScript Section -->
+  <section id="javascript">
+    <h2>Belajar JavaScript</h2>
+    <p>JavaScript adalah bahasa pemrograman yang digunakan untuk membuat website lebih interaktif dan dinamis.</p>
+
+    <div class="example-code">
+      <h3>Contoh Kode JavaScript:</h3>
+      <pre>
+<!-- JavaScript code -->
+<script>
+  alert("Hello, welcome to my website!");
+</script>
+      </pre>
+      <p>Ini adalah contoh kode JavaScript yang menampilkan pesan pop-up saat halaman web dimuat.</p>
+    </div>
+
+    <div class="example-code">
+      <h3>Contoh Fungsi JavaScript:</h3>
+      <pre>
+<!-- JavaScript code -->
+<script>
+  function tambah(a, b) {
+    return a + b;
+  }
+  alert(tambah(5, 10)); // Akan menampilkan 15
+</script>
+      </pre>
+      <p>Ini adalah contoh fungsi JavaScript yang menerima dua parameter dan mengembalikan hasil penjumlahan.</p>
+    </div>
+
+    <div class="example-code">
+      <h3>Contoh Interaksi dengan Pengguna:</h3>
+      <pre>
+<!-- JavaScript code -->
+<script>
+  let nama = prompt("Siapa nama Anda?");
+  alert("Halo, " + nama + "!");
+</script>
+      </pre>
+      <p>Ini adalah contoh kode JavaScript yang meminta input dari pengguna melalui jendela prompt, lalu menampilkan nama mereka dalam alert.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Belajar Pemrograman | Website oleh Anda</p>
+  </footer>
+
+</body>
+</html>
